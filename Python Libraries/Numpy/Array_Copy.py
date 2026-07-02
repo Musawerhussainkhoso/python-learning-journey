@@ -60,7 +60,7 @@ Backup stock array
 Check whether the backup changed.
 Print stock_backup.base
 '''
-import numpy as np
+
 
 # Step 1: Create the original stock array
 stock = np.array([120, 85, 60, 150, 95, 40])
