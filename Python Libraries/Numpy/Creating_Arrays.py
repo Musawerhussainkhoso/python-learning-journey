@@ -12,7 +12,7 @@ arr = np.ones((2,3))
 print(arr)
 
 #Range
-arr = np.arange(0,10,2)
+arr = np.arange(0,10,2)#start , stop , step
 print(arr)
 
 #Evenly Spaced Numbers(make numebrs on eqal distance)
