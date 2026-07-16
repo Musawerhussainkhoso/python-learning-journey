@@ -27,7 +27,7 @@ plt.ylabel("Units Sold")
 plt.grid(
     axis="y",
     linestyle="--",
-    alpha=0.5
+    alpha=0.5#alpha transparency set karta hai.
 )
 
 for bar in bars:
@@ -37,7 +37,7 @@ for bar in bars:
         bar.get_x() + bar.get_width() / 2,
         height + 3,
         str(height),
-        ha="center"
+        ha="center" #text should be in center 
     )
 
 plt.tight_layout()
